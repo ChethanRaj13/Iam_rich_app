@@ -5,7 +5,7 @@ void main() => runApp(
     home: Scaffold(
       backgroundColor: Color(0xFFE3F0AF),
       body: Center(
-        child: Image(image: NetworkImage('https://pbs.twimg.com/media/ETuhXTNU0AAY8Mk.jpg:large'),
+        child: Image(image: AssetImage('images/sung.jpg'),
         ),
       ),
       appBar: AppBar(
